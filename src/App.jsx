@@ -20,15 +20,33 @@ function App() {
           </ul>
           <button className=' rounded-full p-2 active:bg-violet-700 hover:cursor-pointer hover:bg-orange-500'><span><i className="fa-solid fa-language"></i></span>Lang</button>
         </div>
-      </header> 
+      </header>
 
       {/* hero section */}
-      {/* <section>
-        <h2>My name is </h2>
-        <button class="rounded-full bg-purple-600">Save Changes</button>
-        <h1 className='text-3xl text-blue-600 font-bold underline'>Victor Martinez</h1>
-        <h3>I create beautiful, functional web applications using modern technologies. Passionate about clean code and exceptional user experiences.</h3>
-      </section> */}
+      <section className='flex justify-center items-center h-[80vh] bg-green-200'>
+        <div className='flex flex-col justify-center items-center h-[90%] w-[60%] bg-red-400'>
+          <p>Hi,I'm</p>
+          <h3 className='text-7xl font-bold'>Victor Martinez</h3>
+          <h1>Full-Stack Web Developer</h1>
+          <p>I create <span>beautiful</span>, <span>functional</span> web applications using <span>modern</span> technologies.</p>
+          <p>Passionate about clean code and exceptional user experiences.</p>
+          <div className='flex'>
+            <div>
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
