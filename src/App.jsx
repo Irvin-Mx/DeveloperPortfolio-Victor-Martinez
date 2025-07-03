@@ -24,7 +24,7 @@ function App() {
 
       {/* hero section */}
       <section className='flex justify-center items-center h-[90vh] bg-green-200'>
-        <div className='flex flex-col items-center h-full w-[80%] bg-red-400'>
+        <div className='flex flex-col justify-center items-center h-full w-[80%] bg-red-400'>
           <div className='bg-yellow-500 h-[10%] w-full flex justify-center items-center'>
             <p className='text-xl'>Hi,I'm</p>
           </div>
