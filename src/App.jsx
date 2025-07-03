@@ -23,32 +23,34 @@ function App() {
       </header>
 
       {/* hero section */}
-      <section className='flex justify-center items-center h-[90vh] bg-green-200'>
-        <div className='flex flex-col justify-center items-center h-full w-[80%] bg-red-400'>
-          <div className='bg-yellow-500 h-[10%] w-full flex justify-center items-center'>
+      <section className='flex justify-center items-center h-[90vh] '>
+        <div className='flex flex-col justify-center items-center h-full w-[80%] '>
+          <div className=' h-[10%] w-full flex justify-center items-center'>
             <p className='text-xl'>Hi,I'm</p>
           </div>
-          <div className='bg-blue-300 h-[15%] w-full'>
+          <div className=' h-[15%] w-full'>
             <h3 className='text-6xl font-bold text-center'>Victor Martinez</h3>
           </div>
-          <div className='bg-orange-600 h-[10%] w-full flex justify-center items-center'>
-            <h1 className='bg-pink-500 text-2xl'>Full-Stack Web Developer</h1>
+          <div className=' h-[10%] w-full flex justify-center items-center'>
+            <h1 className=' text-2xl'>Full-Stack Web Developer</h1>
           </div>
-          <div className='bg-red-600 w-full h-[20%] '>
+          <div className=' w-full h-[20%] '>
             <p className='text-center text-xl'>I create <span>beautiful</span>, <span>functional</span> web applications using <span>modern</span> technologies.Passionate about clean code and exceptional user experiences.</p>
           </div>
-          
-          
-          
-          <div className='flex'>
-            <div>
-              <i class="fa-brands fa-github"></i>
-            </div>
-            <div>
-              <i class="fa-brands fa-linkedin"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-envelope"></i>
+
+
+          {/* Contact Social Media */}
+          <div className='flex justify-center items-center w-full'>
+            <div className=' w-1/2 flex justify-around items-center'>
+              <div>
+                <i class="fa-brands fa-github text-2xl"></i>
+              </div>
+              <div>
+                <i class="fa-brands fa-linkedin text-2xl"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope text-2xl"></i>
+              </div>
             </div>
           </div>
 
