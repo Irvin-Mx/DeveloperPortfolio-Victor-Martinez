@@ -41,15 +41,15 @@ function App() {
 
           {/* Contact Social Media */}
           <div className='flex justify-center items-center w-full'>
-            <div className=' w-1/2 flex justify-around items-center'>
+            <div className=' w-1/2 flex justify-around items-center mt-[15px]'>
               <div>
-                <i class="fa-brands fa-github text-2xl"></i>
+                <i class="fa-brands fa-github text-3xl"></i>
               </div>
               <div>
-                <i class="fa-brands fa-linkedin text-2xl"></i>
+                <i class="fa-brands fa-linkedin text-3xl"></i>
               </div>
               <div>
-                <i class="fa-solid fa-envelope text-2xl"></i>
+                <i class="fa-solid fa-envelope text-3xl"></i>
               </div>
             </div>
           </div>
