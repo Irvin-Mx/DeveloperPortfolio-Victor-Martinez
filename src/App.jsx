@@ -1,9 +1,28 @@
-import { useState } from 'react'
+import Typed from 'typed.js';
+import { useState,useRef,useEffect} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+
+  // Create reference to store the DOM element containing the animation
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['Full-Stack Web Developer'],
+      typeSpeed: 70,
+      loop: true,
+      showCursor: false,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   const [count, setCount] = useState(0)
 
   return (
@@ -29,10 +48,11 @@ function App() {
             <p className='text-xl'>Hi,I'm</p>
           </div>
           <div className=' h-[15%] w-full'>
-            <h3 className='text-6xl font-bold text-center'>Victor Martinez</h3>
+            <h3 className='text-6xl font-bold text-center' >Victor Martinez</h3>
+            {/* <p ref={el}></p> */}
           </div>
           <div className=' h-[10%] w-full flex justify-center items-center'>
-            <h1 className=' text-2xl'>Full-Stack Web Developer</h1>
+            <h1 className=' text-2xl' ref={el}>Full-Stack Web Developer</h1>
           </div>
           <div className=' w-full h-[20%] '>
             <p className='text-center text-xl'>I create <span>beautiful</span>, <span>functional</span> web applications using <span>modern</span> technologies.Passionate about clean code and exceptional user experiences.</p>
