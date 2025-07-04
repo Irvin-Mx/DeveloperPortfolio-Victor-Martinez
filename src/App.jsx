@@ -59,6 +59,84 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Skills & Technologies */}
+      <section className='bg-stone-100 flex flex-col justify-center items-center md:flex-row md:justify-evenly md:items-start'>
+        {/* <div className='bg-red-500'>
+          <h2>Skills & Technologies</h2>
+        </div> */}
+        {/* Frontend Skills */}
+        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+          <div>
+            <h2>Frontend</h2>
+          </div>
+          <div className='w-[80%]'>
+            <ul id='skillsAndTechnologies'>
+              <li >React.js</li>
+              <li >Typescript</li>
+              <li >Bootstrap</li>
+              <li >Tailwind CSS</li>
+              <li >Material UI</li>
+              <li >Shadcn UI</li>
+              <li >Vite</li>
+              <li >Vue.js</li>
+              <li >HTML</li>
+              <li >CSS</li>
+              <li >Javascript</li>
+            </ul>
+          </div>
+        </div>
+         {/* Backend Skills */}
+        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+          <div>
+            <h2>Backend</h2>
+          </div>
+          <div className='w-[80%]'>
+            <ul id='skillsAndTechnologies'>
+              <li >Node.js</li>
+              <li >Express.js</li>
+              <li >Python</li>
+              <li >Flask</li>
+              <li >RestAPIs</li>
+              <li>Sequelize</li>
+              <li>SQLAlchemy</li>
+            </ul>
+          </div>
+        </div>
+         {/* Database Skills */}
+        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+          <div>
+            <h2>Database</h2>
+          </div>
+          <div className='w-[80%]'>
+            <ul id='skillsAndTechnologies'>
+              <li >PostgreSQL</li>
+              <li >MySQL</li>
+              <li >MongoDB</li>
+              <li >Supabase</li>
+              <li >Firebase</li>
+            </ul>
+          </div>
+        </div>
+         {/* Other Skills */}
+        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+          <div>
+            <h2>Others</h2>
+          </div>
+          <div className='w-[80%]'>
+            <ul id='skillsAndTechnologies'>
+              <li >Git</li>
+              <li >Linux</li>
+              <li >Vercel</li>
+              <li >Postman</li>
+              <li >Vite</li>
+              <li >AWS(EC2,RDS)</li>
+              <li >Google Cloud Platform</li>
+              <li >Azure</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   )
 }

@@ -21,3 +21,8 @@
 #slideDownArrow{
     animation: slidingDownArrow 2s infinite;
 }
+
+
+#skillsAndTechnologies > li {
+    @apply  bg-gray-100 rounded m-2 p-2;
+}
