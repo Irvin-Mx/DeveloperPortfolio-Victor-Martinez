@@ -22,6 +22,10 @@
     animation: slidingDownArrow 2s infinite;
 }
 
+/* Skills and Technologies */
+.skills{
+    @apply bg-white w-[80%] flex flex-col justify-center items-center rounded-xl mt-10 md:w-[20%];
+}
 
 #skillsAndTechnologies > li {
     @apply  bg-gray-100 rounded m-2 p-2;

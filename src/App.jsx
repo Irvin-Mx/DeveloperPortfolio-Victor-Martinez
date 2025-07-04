@@ -61,12 +61,12 @@ function App() {
       </section>
 
       {/* Skills & Technologies */}
-      <section className='bg-stone-100 flex flex-col justify-center items-center md:flex-row md:justify-evenly md:items-start'>
+      <section className='bg-stone-100 flex flex-col justify-center items-center md:flex-row md: md:justify-evenly md:items-start'>
         {/* <div className='bg-red-500'>
           <h2>Skills & Technologies</h2>
         </div> */}
         {/* Frontend Skills */}
-        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+        <div className='skills'>
           <div>
             <h2>Frontend</h2>
           </div>
@@ -87,7 +87,7 @@ function App() {
           </div>
         </div>
          {/* Backend Skills */}
-        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+        <div className='skills'>
           <div>
             <h2>Backend</h2>
           </div>
@@ -104,7 +104,7 @@ function App() {
           </div>
         </div>
          {/* Database Skills */}
-        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+        <div className='skills'>
           <div>
             <h2>Database</h2>
           </div>
@@ -119,7 +119,7 @@ function App() {
           </div>
         </div>
          {/* Other Skills */}
-        <div className='bg-white w-[90%] flex flex-col justify-center items-center rounded-xl mt-2 md:w-[20%]'>
+        <div className='skills'>
           <div>
             <h2>Others</h2>
           </div>
@@ -134,6 +134,44 @@ function App() {
               <li >Google Cloud Platform</li>
               <li >Azure</li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects section */}
+      <section>
+        <div>
+          <h1>Projects</h1>
+        </div>
+        <div>
+          <div className=''>
+            <div>
+              <img src="https://placehold.co/300x200" alt="Workland web application project image" />
+            </div>
+            <div>
+              <div>
+                <h3>Workland</h3>
+              </div>
+              <div>
+                <p>Workland is a web platform that connects freelancers with clients in need of professional services. It eliminates high commissions and entry barriers, making it easy for talent and clients to find each other and collaborate directly. Designed with simplicity in mind, Workland empowers users to create profiles, post jobs, and start working — faster and without intermediaries.</p>
+              </div>
+              <div>
+                <ul>
+                  <li>React.js</li>
+                  <li>Bootstrap</li>
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>SQLAlchemy</li>
+                  <li>Git</li>
+                  <li>Cloudinary</li>
+                  <li>Paypal</li>
+                </ul>
+              </div>
+              <div>
+                <a href="#">Live Project</a>
+                <a href="#">View Code</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
