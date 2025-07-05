@@ -13,7 +13,7 @@ useEffect(() => {
   document.fonts.ready.then(() => {
     const typed = new Typed(el.current, {
       strings: ['Full-Stack Web Developer'],
-      typeSpeed: 20,
+      typeSpeed: 60,
       backSpeed: 40,
       loop: true,
       showCursor: false,
