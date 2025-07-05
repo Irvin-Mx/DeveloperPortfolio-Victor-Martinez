@@ -13,6 +13,7 @@ function App() {
     const typed = new Typed(el.current, {
       strings: ['Full-Stack Web Developer'],
       typeSpeed: 300,
+      backSpeed:40,
       loop: true,
       showCursor: false,
     });
