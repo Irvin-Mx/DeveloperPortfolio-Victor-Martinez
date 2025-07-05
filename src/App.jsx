@@ -9,20 +9,19 @@ function App() {
   // Create reference to store the DOM element containing the animation
   const el = useRef(null);
 
-  useEffect(() => {
+useEffect(() => {
+  document.fonts.ready.then(() => {
     const typed = new Typed(el.current, {
       strings: ['Full-Stack Web Developer'],
-      typeSpeed: 60,
-      backSpeed:40,
+      typeSpeed: 20,
+      backSpeed: 40,
       loop: true,
       showCursor: false,
     });
 
-    return () => {
-      // Destroy Typed instance during cleanup to stop animation
-      typed.destroy();
-    };
-  }, []);
+    return () => typed.destroy();
+  });
+}, []);
 
   const [count, setCount] = useState(0)
 
