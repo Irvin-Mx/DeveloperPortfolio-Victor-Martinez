@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: ['Full-Stack Web Developer'],
-      typeSpeed: 100,
+      typeSpeed: 300,
       loop: true,
       showCursor: false,
     });
