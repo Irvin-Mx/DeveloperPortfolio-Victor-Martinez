@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className=' h-[15%] w-full'>
             <h3 className='text-6xl font-bold text-center' >
-              <ReactTyped strings={['Victor Martinez']} typeSpeed={80} backSpeed={30} loop />
+              <ReactTyped strings={['Victor Martinez']} typeSpeed={90} backSpeed={40} loop />
             </h3>
           </div>
           <div className=' h-[10%] w-full flex justify-center items-center'>
@@ -144,11 +144,8 @@ function App() {
       </section>
 
       {/* Projects section */}
-      <section>
-        <div>
-          <h1>Projects</h1>
-        </div>
-        <div>
+      <section className='bg-gray-700 p-4'>
+        <div className="bg-orange-500">
           <div className=''>
             <div>
               <img src="https://placehold.co/300x200" alt="Workland web application project image" />
